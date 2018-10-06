@@ -1,0 +1,156 @@
+*{
+  padding: 0px;
+  margin: 0px;  
+}
+header nav{
+     background: #528fd5;
+    width: 1270px;
+    height: 40px;
+    margin:10px; 
+    padding: 10px;
+}
+header nav ul{
+        list-style: none;
+        
+}
+
+
+header nav ul li{
+      float: left;
+       background: #ffa500;
+       color: coral;
+     height: 60px;
+}
+
+header nav ul li a{
+   
+    display: block;
+    color: #fff;
+    text-decoration: none;
+     width: 180px;
+     height: 50px;
+     border: black 5px solid;
+
+}
+
+
+
+img{
+   display: block;
+    border-radius: 40%;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;  
+}
+
+
+body{
+    background: #e6e6e6;
+}
+
+header nav{
+     background: #528fd5;
+    width: 1300px;
+    height: 74px;
+    border: black 5px double;
+}
+
+header nav ul{
+        list-style: none;
+        
+}
+
+
+header nav ul li{
+      float: left;
+       color: coral;
+     height: 70px;
+  
+}
+
+
+header nav ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+     width: 130px;
+     height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+header nav ul li a:hover{
+    background: red;
+     height: 70px;
+}
+ 
+
+.main .articles{
+     width: 889px;
+     height: 580px;
+    float: left;
+    padding: 1px;
+    color: black;
+}
+
+.main .articles article{
+    height: 400px;
+    width: 1000px;
+    background:#D5DBDB  ;
+    text-align: justify;
+    font-family: consola, tahoma, helvetica;
+    text-transform: capitalize;
+    border: black 5px double;
+     margin:130px; 
+    padding: 25px;
+}
+
+aside{
+    margin-top: 5px;
+    margin-left: 5px;
+    background: #ffcc99;
+    text-align: justify;
+    height: 500px;
+    width: 360px;
+    float: left;
+     border: black 5px double;
+     margin:10px; 
+    padding: 20px;
+}
+
+
+main{
+    margin: 5px;
+}
+
+
+footer{
+    background: red;
+     color: blue;
+    clear: both;
+    padding:  10px 0px;
+    text-align: center;
+    width: 1332px;
+    height: 20px;
+     border: black 5px double;
+    opacity: 0.7;
+}
+
+
+footer:hover{
+    background: #bc8f8f;
+
+    
+}
+
+body{
+background:url(fond.jpg);
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-size:100% 100%;
+}

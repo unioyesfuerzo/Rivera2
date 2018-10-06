@@ -1,0 +1,124 @@
+
+*{
+	margin:0xp;
+	padding:0xp;
+}
+div#menu{
+	width:200px;
+	margin-top:50px;
+}
+div#menu ul{
+	list-style:none;
+}
+div#menu ul li{
+	margin-top:15px;
+	font-family:tahoma;
+	font-size:18px;
+	background-color:#639bb3;
+	width:160px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-radius:0px 20px 20px 0px;
+	padding-left:20px;
+	box-shadow:5px 0px 10px #939393;
+	-webkit-transition:padding-left 0.8s;
+	color:white;
+}
+div#menu ul li:hover{
+	padding-left:50px;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	font-family: Verdana
+}
+header{
+	margin:100px; auto;
+	width:1200px;
+	height:230px;
+	background-color: red;
+}
+div.contenedor{
+	width:200px;
+	height:230px;
+	float:left;
+	-webkit-transition: height .4s;
+}
+div#uno{
+	background-color: rgb(208,101,3);
+}
+div#dos{
+	background-color: rgb(233,147,26);
+}
+div#tres{
+	background-color: rgb(22,145,190);
+}
+	div#cuatro{
+	background-color: rgb(22,107,162);
+}
+div#cinco{
+	background-color: rgb(27,54,71);
+}
+div#seis{
+	background-color: rgb(21,40,54);
+}
+div#siete{
+background-color: rgb(3,42,71); 
+}
+img.icon{
+	display: block;
+	margin:50px auto;
+	background-color: rgba(255,255,255,.15);
+	width:40px;
+	padding:20px;
+	border-radius: 60%;
+	-webkit-border-radius:50%;
+	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,0);
+	-webkit-transition:box-shadow .4s;
+}
+p.texto{
+	font-size:1.2em;
+	color:white;
+	text-align: center;
+	padding-top:10px;
+	opacity: .6;
+	-webkit-transition: padding-top .4s;
+	
+}
+div.contenedor:hover{
+	height:250px;
+}
+div.contenedor:hover p.texto{
+	padding-top: 30px;
+	opacity:1;
+}
+div.contenedor.hover img.icon{
+	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}
+body{
+background:url(fond.jpg);
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+
+footer{
+    background: orange;
+     color: #BBB8B2;
+    clear: both;
+    padding:  10px 0px;
+    text-align: center;
+    width: 1480px;
+    height: 40px;
+     border: black 5px double;
+    opacity: 0.7;
+}
+
+
+footer:hover{
+    background: #bc8f8f;
+
+    
+}
+
